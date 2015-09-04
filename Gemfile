@@ -19,7 +19,7 @@ gem 'jquery-rails', '~> 3.1.2'
 # you may comment out the database driver you will not be using.
 # This will prevent a native build of the driver. Building native drivers is not
 # always possible on all hosters
-gem "sqlite3", "~> 1.3.9"
+# gem "sqlite3", "~> 1.3.9"
 gem "mysql2", "~> 0.3.16"
 
 gem "RedCloth", "~> 4.2.9"
@@ -31,6 +31,9 @@ gem "htmlentities", "~> 4.3.2"
 gem "swf_fu", "~> 2.0.4"
 gem "rails_autolink", "~> 1.1.6"
 gem "cache_digests", "~> 0.3.1"
+
+# Using thin by default
+gem "thin"
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
